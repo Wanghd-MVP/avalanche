@@ -2,7 +2,7 @@ import setuptools
 import codecs
 import os.path
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding='UTF-8') as fh:
     long_description = fh.read()
 
 def read(rel_path):
